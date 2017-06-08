@@ -13,7 +13,7 @@ I wanna thank Matt for this amazing javascript library [typed.js](https://github
 The main idea of the website, the color changer, was inspired by [Cubezapp](https://github.com/unixpickle/cubezapp).
 
 ## TODO
-- [ ] Get a custom domain and link it to my repo here on github.
+- [x] Get a custom domain and link it to my repo here on github.
 - [ ] Get a custom email address with Google that matches my custom domain.
 
 ## Credit me!
