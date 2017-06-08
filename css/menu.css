@@ -1,0 +1,97 @@
+/* Styling navigation menu */
+
+.menu-container {
+    position: fixed;
+    z-index: 101;
+    right: -300px;
+
+    overflow-y: auto;
+
+    width: 300px;
+    height: 100%;
+
+    background-color: #efefef;
+
+    font-family: Arcon;
+}
+
+.menu-container h2 {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+
+    animation-name: borderColorChanger;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    border: 5px solid black;
+
+    font-family: Arcon;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.menu-container ul {
+    margin-top: 50px;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.menu-nav ul li a {
+    display: block;
+
+    padding: 15px 30px 15px 30px;
+
+    cursor: pointer;
+    -webkit-transition: background 0.2s, box-shadow 0.2;
+    transition: background 0.2s, box-shadow 0.2s;
+    animation-name: colorChanger;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    outline: none;
+    box-shadow: inset 0 -1px rgba(0,0,0,0.1);
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-nav ul li:first-child a {
+    box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 1px rgba(0,0,0,0.1);
+}
+
+.menu-nav ul li a:hover {
+    color: #fff;
+    background: rgba(0,0,0,0.1);
+    box-shadow: inset 0 -1px rgba(0,0,0,0);
+}
+
+@media (max-width: 767px) {
+    .menu-container {
+        width: 250px;
+    }
+    .menu-container h2 {
+        margin-top: 25px;
+
+        border: 4px solid black;
+
+        font-size: 2rem;
+    }
+    .menu-container ul {
+        margin-top: 25px;
+    }
+    .menu-nav ul li a {
+        padding: 10px 20px;
+
+        font-size: 1.3rem;
+    }
+}

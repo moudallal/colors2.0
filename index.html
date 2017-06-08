@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:site_name" content="Mohamad Moudallal"/>
+	<meta property="og:title" content="My Super Cool Portfolio Website."/>
+	<meta property="og:image" content="img/colors.png">
+
+	<!-- Favicon -->
+    <link id="favicon-link" rel="shortcut icon" type="image/x-icon" href="img/M.ico">
+
+	<title>Moudallal</title>
+
+	<!-- Webpage styling -->
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+	<!-- Global CSS -->
+	<link rel="stylesheet" href="css/global.css">
+
+	<!-- ZMDI CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+</head>
+<body>
+
+	<div id="menu-container" class="menu-container">
+		<nav class="menu-nav">
+			<h2><span class="blue">c</span><span class="red">o</span><span class="green">l</span><span class="purple">o</span><span class="turquoise">r</span><span class="dark-blue">s</span></h2>
+			<ul>
+				<li id="homeButton"><a>Home</a></li>
+				<li id="aboutButton"><a>About</a></li>
+				<li id="skillButton"><a>Skills</a></li>
+				<li id="portfolioButton"><a>Portfolio</a></li>
+				<li id="funButton"><a>Fun Stuff</a></li>
+				<li id="feedbackButton"><a>Feedback</a></li>
+				<li id="contactButton"><a>Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="overlay" id="overlay"></div>
+	<div class="head" id="head-bar">
+		<a class="logo m-0 p-0"><img src="img/logo.png" width="60" class="img-fluid"></a>
+		<a id="menu" class="menu ml-0 mr-0 p-0"><img src="img/menu.png" height="30"></a>
+	</div>
+	<div id="main-container">
+
+		<!-- Cover Section -->
+		<div class="cover">
+			<div class="typed-container"><span class="typed-text"></span></div>
+			<span class="scroll-container"><a id="scroll"><i id="scroll-icon" class="zmdi zmdi-chevron-down animated infinite bounce zmdi-hc-fw"></i></a></span>
+		</div>
+
+		<!-- About Section -->
+		<div class="about-section container py-2" id="about-section">
+			<h1 class="header mx-auto py-2 mb-0">Me, myself and I</h1>
+			<div class="py-3" style="clear: left;">
+				<p class="img-container" style="float: left;"><img src="img/me.png" class="avatar img-responsive"></p>
+				<p class="about-text">I guess you already know my name. I'm a teenager developer and designer, I design websites, build iOS Apps and design them, and I also solve Rubik's Cubes very fast. I started designing when I was 10 and coding when I was 12. Based in the Silicon Valley of the MENA, Beirut, Lebanon. Wanna read my full story? Click this beautiful button below.</p>
+				<a href="#portfolioModal10" data-toggle="modal" class="d-inline-block beauty-button px-3 py-1 mb-1">Beautiful Button</a>
+				<a href="https://drive.google.com/open?id=0B2jhJjFcUamGNGZCV1AxdURxZnM" target="_blank" class="d-inline-block beauty-button px-3 py-1"><i class="zmdi zmdi-download"></i> My Resume</a>
+			</div>
+		</div>
+
+		<!-- Skills Section -->
+		<div class="skills-section container py-2" id="skills-section">
+			<h1 class="header mx-auto py-2 mb-0">Skills</h1>
+			<h3 class="pt-3 sub-header mb-0">Here are some of my main skills.</h3>
+			<div class="skills pt-5">
+				<div class="skillbar" data-percent="90%">
+					<div class="title">HTML5</div>
+					<div class="count-bar"><div class="count"></div></div>
+				</div>
+				<div class="skillbar" data-percent="85%">
+					<div class="title">CSS3</div>
+					<div class="count-bar"><div class="count"></div></div>
+				</div>
+				<div class="skillbar" data-percent="70%">
+					<div class="title">Javascript & jQuery</div>
+					<div class="count-bar"><div class="count"></div></div>
+				</div>
+				<div class="skillbar" data-percent="65%">
+					<div class="title">Angular 4</div>
+					<div class="count-bar"><div class="count"></div></div>
+				</div>
+				<div class="skillbar" data-percent="70%">
+					<div class="title">UI/UX Design</div>
+					<div class="count-bar"><div class="count"></div></div>
+				</div>
+				<div class="skillbar" data-percent="80%">
+					<div class="title">Git</div>
+					<div class="count-bar"><div class="count"></div></div>
+				</div>
+				<div class="skillbar" data-percent="99%">
+					<div class="title">Having Fun</div>
+					<div class="count-bar"><div class="count"></div></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Portfolio Section -->
+		<div class="portfolio-section container py-2" id="portfolio-section">
+			<h1 class="header mx-auto py-2 mb-0">Portfolio</h1>
+			<h3 class="pt-3 sub-header mb-0">Main projects, side projects. Just an overview.</h3>
+			<div class="row pt-3">
+				<div class="col-md-4">
+					<a class="portfolio-link" href="#portfolioModal1" data-toggle="modal"><img src="img/colors.png" class="img-responsive w-100"></a>
+				</div>
+				<div class="col-md-4">
+					<a class="portfolio-link" href="#portfolioModal2" data-toggle="modal"><img src="img/givingloop.png" class="img-responsive w-100"></a>
+				</div>
+				<div class="col-md-4">
+					<a class="portfolio-link" href="#portfolioModal3" data-toggle="modal"><img src="img/twc.png" class="img-responsive w-100"></a>
+				</div>
+				<div class="col-md-4">
+					<a class="portfolio-link" href="#portfolioModal4" data-toggle="modal"><img src="img/lln.png" class="img-responsive w-100"></a>
+				</div>
+				<div class="col-md-4">
+					<a class="portfolio-link" href="#portfolioModal5" data-toggle="modal"><img src="img/proonlinestore.png" class="img-responsive w-100"></a>
+				</div>
+				<div class="col-md-4">
+					<a class="portfolio-link" href="#portfolioModal6" data-toggle="modal"><img src="img/tbh.png" class="img-responsive w-100"></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Fun Section -->
+		<div class="fun-section container py-2" id="fun-section">
+			<h1 class="header mx-auto py-2 mb-0">Fun Stuff</h1>
+			<h3 class="pt-3 sub-header mb-0">Rubik's Cubes, Guitars, Band Performance...</h3>
+			<div class="row pt-3">
+				<div class="col-md-4">
+					<a href="#portfolioModal7" data-toggle="modal"><img src="img/cubing1.png" class="img-responsive w-100"></a>
+				</div>
+				<div class="col-md-4">
+					<a href="#portfolioModal8" data-toggle="modal"><img src="img/jam.jpg" class="img-responsive w-100"></a>
+				</div>
+				<div class="col-md-4">
+					<a href="#portfolioModal9" data-toggle="modal"><img src="img/hotel.jpg" class="img-responsive w-100"></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Feedback Section -->
+		<div class="feedback-section container py-2" id="feedback-section">
+			<h1 class="header mx-auto py-2 mb-0">Feedback</h1>
+			<h3 class="pt-3 sub-header mb-0">Feedback and testimonial from clients and friends.</h3>
+			<div class="row pt-3">
+				<div class="col-md-4 mb-3">
+					<hr class="mt-0">
+					<p>Moudallal is a great front-end developer, with beautiful web designs. His work is efficient and he delivers fast.</p>
+					<h5>Abdallah Absi</h5>
+					<h6>CEO at <a href="http://www.zoomaal.com" target="_blank">Zoomaal</a></h6>
+				</div>
+				<div class="col-md-4 mb-3">
+					<hr class="mt-0">
+					<p>I enjoy working with Mohamad for several reasons: he's a motivated individual, hard worker and is always working on improving himself. He has a good eye for design, can work under pressure and tight deadlines and can code fast! I can't ask for more.</p>
+					<h5>Nour Atrissi</h5>
+					<h6>CEO at <a href="http://www.teenswhocode.com" target="_blank">TeensWhoCode</a></h6>
+				</div>
+				<div class="col-md-4 mb-3">
+					<hr class="mt-0">
+					<p>Mohamad is a skilled iOS Developer, as well as a creative Web Designer. He has great taste in coordinating colors, eats a lot and always gives back to the community.</p>
+					<h5>Firas Koussa</h5>
+					<h6>Co-Founder at Polyvoid</h6>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact Section -->
+		<div class="contact-section container py-2 mb-3" id="contact-section">
+			<h1 class="header mx-auto py-2 mb-0">Contact</h1>
+			<h3 class="pt-3 sub-header mb-1">Contact me right here.</h3>
+			<h5 class="text-center">*Note that I'm not available to hire at the moment.</h4>
+			<div class="row pt-3">
+				<form action="https://formspree.io/moudallalov@gmail.com" method="POST" class="mx-auto w-100">
+					<div class="control-group">
+						<div class="form-group mb-2">
+							<input type="name" name="name" class="form-control p-1" id="userName" aria-describedby="nameHelp" placeholder="Name" required data-validation-required-message="This field is required" autocomplete="off">
+							<p class="help-block mb-0"></p>
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="form-group mb-2 controls">
+							<input type="email" name="email" class="form-control p-1" id="userEmail" aria-describedby="emailHelp" placeholder="Email" required data-validation-email-message="Not a valid email address" autocomplete="off">
+							<p class="help-block mb-0"></p>
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="form-group mb-2">
+							<input type="number" name="phone" class="form-control p-1" id="userPhone" aria-describedby="phoneHelp" placeholder="Phone Number" required data-validation-number-message="Not a valid phone number" autocomplete="off">
+							<p class="help-block mb-0"></p>
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="form-group mb-2 controls">
+							<textarea name="message" class="w-100 p-1" id="userMessage" rows="5" placeholder="Message" required data-validation-required-message="This field is required"></textarea>
+							<p class="help-block mb-0"></p>
+						</div>
+					</div>
+					 <button type="submit" class="btn btn-primary d-block mx-auto px-3 py-1 mt-1"><i class="zmdi zmdi-mail-send"></i> Submit</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="footer pt-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 text-center mb-1">
+						<h3 class="mb-2">Bunker</h3>
+						<p class="mb-0">Currently based in my parents' house.</p>
+						<p class="mb-0">But we can meet in Hamra, Lebanon.</p>
+					</div>
+					<div class="col-md-4 text-center mb-1">
+						<h3 class="mb-2">Around The Web</h3>
+						<ul class="list-inline text-xs-center mb-0">
+							<li class="list-inline-item">
+								<a href="http://facebook.com/moudallalov" target="_blank" class="btn-social btn-outline"><i class="zmdi zmdi-facebook"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="http://twitter.com/mhmoudallal" target="_blank" class="btn-social btn-outline"><i class="zmdi zmdi-twitter"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="http://instagram.com/moudallal" target="_blank" class="btn-social btn-outline"><i class="zmdi zmdi-instagram"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.youtube.com/channel/UCnCs97QNBDFwuN5-RvjzkAw" target="_blank" class="btn-social btn-outline"><i class="zmdi zmdi-youtube-play"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://www.github.com/moudallal" target="_blank" class="btn-social btn-outline"><i class="zmdi zmdi-github"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4 text-center mb-1">
+						<h3 class="mb-2">Stay Tuned</h3>
+						<p class="mb-0">Stay tuned until my blog goes online so you can stay tuned.</p>
+					</div>
+				</div>
+				<br>
+				<div class="w-100 d-block">
+					<p class="text-center mb-0">&copy; Mohamad Moudallal <span id="year"></span></p>
+				</div>
+				<br><br>
+			</div>
+		</div>
+
+		<!-- Modal 1 -->
+		<div class="portfolio-modal modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div>
+							<div class="modal-body">
+								<h2 class="mb-3">Colors Website</h2>
+								<img src="img/colors.png" class="img-responsive mb-3">
+								<p class="mb-3">This is the second version of my "Colors" themed porfolio website with major design updates. You can find the first version of Colors which was developed in Summer 2016 right <a href="http://github.com/moudallal/colors-v1" target="_blank">here</a>.</p>
+								<ul class="list-inline item-details">
+									<li class="list-inline-item mr-1">Client:
+										<strong>Myself</strong>
+									</li>
+									<li class="list-inline-item mr-1">Date:
+										<strong>June 2017</strong>
+									</li>
+									<li class="list-inline-item">Service:
+										<strong>Web Design & Development</strong>
+									</li>
+								</ul>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 2 -->
+		<div class="portfolio-modal modal" id="portfolioModal2" tabindex="-2" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div>
+							<div class="modal-body">
+								<h2 class="mb-3">Givingloop</h2>
+								<img src="img/gl.png" class="img-responsive mb-3">
+								<p class="mb-3">I worked as a Pixel Perfectness Officer for Zoomaal to help develop this new platform as part of the Zoomaal Team. Check it out on <a href="http://givingloop.org" target="_blank">givingloop.org</a>.</p>
+								<ul class="list-inline item-details">
+									<li class="list-inline-item mr-1">Client:
+										<strong>Zoomaal</strong>
+									</li>
+									<li class="list-inline-item mr-1">Date:
+										<strong>Sep 2016 - Feb 2017</strong>
+									</li>
+									<li class="list-inline-item">Service:
+										<strong>Web Design & Development</strong>
+									</li>
+								</ul>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 3 -->
+		<div class="portfolio-modal modal" id="portfolioModal3" tabindex="-3" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div>
+							<div class="modal-body">
+								<h2 class="mb-3">TeensWhoCode</h2>
+								<img src="img/sc17.png" class="img-responsive mb-3">
+								<p class="mb-3">I built this website for TeensWhoCode to show case their summercamp for 2017. Check it out on <a href="http://teenswhocode.com/sc17" target="_blank">teenswhocode.com</a>.</p>
+								<ul class="list-inline item-details">
+									<li class="list-inline-item mr-1">Client:
+										<strong>TeensWhoCode</strong>
+									</li>
+									<li class="list-inline-item mr-1">Date:
+										<strong>May 2017</strong>
+									</li>
+									<li class="list-inline-item">Service:
+										<strong>Web Design & Development</strong>
+									</li>
+								</ul>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 4 -->
+		<div class="portfolio-modal modal" id="portfolioModal4" tabindex="-4" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div>
+							<div class="modal-body">
+								<h2 class="mb-3">Le Lycee National</h2>
+								<img src="img/lln.png" class="img-responsive mb-3">
+								<p class="mb-3">This is an iOS app that I made for my own school. It's a simple blog reader app that fetches its data from a wordpress blog and parses it using Objective-C and Swift and then displays it in a table view. The app also supports push notifications managed by an online server. This app was unfortunately rejected by my school as of being "too expensive".</p>
+								<ul class="list-inline item-details">
+									<li class="list-inline-item mr-1">Client:
+										<strong>Le Lycee National</strong>
+									</li>
+									<li class="list-inline-item mr-1">Date:
+										<strong>Summer 2015</strong>
+									</li>
+									<li class="list-inline-item">Service:
+										<strong>iOS Development</strong>
+									</li>
+								</ul>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 5 -->
+		<div class="portfolio-modal modal" id="portfolioModal5" tabindex="-5" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div>
+							<div class="modal-body">
+								<h2 class="mb-3">Pro Online Store</h2>
+								<img src="img/proonlinestore.png" class="img-responsive mb-3">
+								<p class="mb-3">This was a logo fully designed by me, inspired by one posted on dribbble with some modifications and improvments to it. It was made for an entrepreneurship in Lebanon.</p>
+								<ul class="list-inline item-details">
+									<li class="list-inline-item mr-1">Client:
+										<strong>Pro Online Store</strong>
+									</li>
+									<li class="list-inline-item mr-1">Date:
+										<strong>July 2016</strong>
+									</li>
+									<li class="list-inline-item">Service:
+										<strong>Logo Design</strong>
+									</li>
+								</ul>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 6 -->
+		<div class="portfolio-modal modal" id="portfolioModal6" tabindex="-6" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div>
+							<div class="modal-body">
+								<h2 class="mb-3">ToBeHonest</h2>
+								<img src="img/tbh.png" class="img-responsive mb-3">
+								<p class="mb-3">ToBeHonest is social platform currently in the making by Polyvoid, a team founded by Firas Koussa and I. Stay tuned to take a look at it once it's out.</p>
+								<ul class="list-inline item-details">
+									<li class="list-inline-item mr-1">Client:
+										<strong>N/A</strong>
+									</li>
+									<li class="list-inline-item mr-1">Date:
+										<strong>May 2017 - Now</strong>
+									</li>
+									<li class="list-inline-item">Service:
+										<strong>Web Development</strong>
+									</li>
+								</ul>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 7 -->
+		<div class="portfolio-modal modal" id="portfolioModal7" tabindex="-7" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="w-100">
+							<div class="modal-body">
+								<h2 class="mb-3">7.93 Seconds Solve</h2>
+								<iframe width="100%" height="600" src="https://www.youtube.com/embed/XSf1OqwsDxc" frameborder="0" allowfullscreen class="mb-3"></iframe>
+								<p class="mb-3">The Rubik's Cube solved in a little bit less than 8 seconds</p>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 8 -->
+		<div class="portfolio-modal modal" id="portfolioModal8" tabindex="-8" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="mx-auto">
+							<div class="modal-body">
+								<h2 class="mb-3">Rock-Jazz Jam</h2>
+								<iframe width="100%" height="600" src="https://www.youtube.com/embed/A86_u-V4NiY" frameborder="0" allowfullscreen class="mb-3"></iframe>
+								<p class="mb-3">Performing a student composed Rock-Jazz jam with Chadi Ahmadieh on the keyboard while I play the guitar.</p>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 9 -->
+		<div class="portfolio-modal modal" id="portfolioModal9" tabindex="-9" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="mx-auto">
+							<div class="modal-body">
+								<h2 class="mb-3">Rock-Jazz Jam</h2>
+								<iframe width="100%" height="600" src="https://www.youtube.com/embed/y8DDefJbiwo" frameborder="0" allowfullscreen class="mb-3"></iframe>
+								<p class="mb-3">Nostalgia Band performing a cover of the legendary Hotel California by The Eagles. Jana Bsat on the vocals, Mark Hammoud on lead guitar, myself on the rhythm guitar and Chadi Ahmadieh on the keybaord.</p>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 10 -->
+		<div class="portfolio-modal modal" id="portfolioModal10" tabindex="-10" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="close" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="mx-auto">
+							<div class="modal-body">
+								<h2 class="mb-3">Let Me Introduce My Self</h2>
+								<p class="mb-3 text-justify">Hello there, I'm Mohamad Moudallal, and I'm a 17 years old teenager born in the 00's in Beirut, Lebanon. I'm mostly known for my Rubik's Cube skills and as the official Lebanese National Record holder with a 11.29 seconds solve. I'm a guy who's interested in Computers and Science mostly. My love for computers started when I was just 3 years old when my father bought me a laptop so I can play video games. Through the years, I started scratching the surface of programming. I first met hacking because hacking another's Facebook account was "cool" according to my age. I actually ended up in phishing some of my friends' and family's Facebook accounts but I guess that was it. In 2010, I met Adobe Illustrator, and that was my debut in design. I started small designing some beginner drawings and wallpapers. In 2011, I met an organization called "The Little Engineer". I sarted with one of their courses about robotics, and that's when I met programming. I discovered it's real power and how you could make a robot do whatever you want with it. After that, I started with an easy programming language called Python with some simple math problem solving. Later on I started learning web development, mainly using HTML, CSS and Javascript. I'll be uploading soon the first webpage I ever designed and that I'm so proud of, especially to see where I have reached right now after all these years and still looking forward to learn even more. In 2014, my interests changed a bit, I was interested in iOS App development and that's when I started learning Swift, Apple's new programming language. To be honest, iOS development was lots of fun, but there were too many updates to Swift, just too many, and it was overwhelming, after 2 year of iOS App development, I got back to the web, and got myself more comfortable with UI and UX design, which boosted my opportunities for work. My first portfolio website that got online was back in summer 2016, and you can check it out in the link inside my portfolio section. Thanks to this website that I designed by myself, I got a request to work as a Pixel Perfectness Officer (It's actually a Front-End Developer + UI/UX Designer) for Zoomaal, that was the first fixed job I ever got, specifically on the age of 16. Note that the first job I got was a logo design for an entrepreneurship here in Beirut. I worked for Zoomaal Inc. for about 6 months while I designed their new fundraising platform, Givingloop, as part of the Zoomaal Team. On February 2017, I got out of Zoomaal and went back to being a freelancer when on May 2017 I got a project to develop TeensWhoCode's Summer Camp Website. This project was actually fun to build and finish. Meanwhile, I'm currently co-founding a new team called Polyvoid with my partner Firas Koussa to develop our personal projects plus do some freelance work, build and design websites for other clients. Apart from my career, I started playing guitar on November 2016, self-taught online, like all my other skills. Right now I spend my free time learning new songs and composing some of my own, teaching my self the piano, cubing, eating burgers, and hanging out with my friend in the lovely Beirut. At last, I want to say that I'm never done learning, I always strive for more. I also want to thank my family, friends and colleagues for supporting me on my journey. <br> Now you know well about me, friends?</p>
+								<button type="button" class="close-button px-3" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- JavaScript Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Appear -->
+	<script src="js/jquery.appear.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<!-- TypedJS -->
+	<script type="text/javascript" src="js/typed.js"></script>
+	<!-- Custom Script -->
+	<script type="text/javascript" src=js/script.js></script>
+	<!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+	</html>

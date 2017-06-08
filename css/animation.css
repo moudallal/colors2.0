@@ -1,0 +1,41 @@
+/* Animation for background color */
+
+@keyframes bgChanger {
+    0%   {background-color: #2ecc71;}
+    12%  {background-color: #1abc9c;}
+    25%  {background-color: #3498db;}
+    37%  {background-color: #9b59b6;}
+    50%  {background-color: #e74c3c;}
+    62%  {background-color: #e67e22;}
+    75%  {background-color: #2c3e50;}
+    87%  {background-color: #2980b9;}
+    100% {background-color: #2ecc71;}
+}
+
+/* Animation for text color */
+
+@keyframes colorChanger {
+    0%   {color: #2ecc71;}
+    12%  {color: #1abc9c;}
+    25%  {color: #3498db;}
+    37%  {color: #9b59b6;}
+    50%  {color: #e74c3c;}
+    62%  {color: #e67e22;}
+    75%  {color: #2c3e50;}
+    87%  {color: #2980b9;}
+    100% {color: #2ecc71;}
+}
+
+/* Animation for border color */
+
+@keyframes borderColorChanger {
+    0%   {border-color: #2ecc71;}
+    12%  {border-color: #1abc9c;}
+    25%  {border-color: #3498db;}
+    37%  {border-color: #9b59b6;}
+    50%  {border-color: #e74c3c;}
+    62%  {border-color: #e67e22;}
+    75%  {border-color: #2c3e50;}
+    87%  {border-color: #2980b9;}
+    100% {border-color: #2ecc71;}
+}
