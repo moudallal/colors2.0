@@ -1,13 +1,21 @@
+/* Import custom font */
+
 @font-face {
     font-family: 'Arcon';
     src: url('../fonts/Arcon.otf');
 }
+
+/* Body style */
+
 body {
     background-color: #3498db;
     animation-name: bgChanger;
     animation-duration: 30s;
     animation-iteration-count: infinite;
 }
+
+ /* Head style */
+
 .head {
     width: 100%;
     position: fixed;
@@ -37,27 +45,30 @@ body {
     float: right;
     margin-top: 10px;
 }
+
+/* Cover section style */
+
 .cover {
-    width: 100%;
-    height: 100vh;
+	width: 100%;
+	height: 100vh;
 }
 .typed-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    height: 9rem!important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	height: 9rem!important;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
 }
 .typed-text {
-    font-family: Arcon;
-    text-align: center;
-    font-size: 4rem;
-    color: white;
-    vertical-align: middle;
+	font-family: Arcon;
+	text-align: center;
+	font-size: 4rem;
+	color: white;
+	vertical-align: middle;
 }
 .typed-cursor {
     opacity: 0;
@@ -74,15 +85,18 @@ body {
     font-size: 3.5rem;
     cursor: pointer;
 }
+
+/* About section style */
+
 .avatar {
-    border: 3px solid white;
-    max-width: 25rem;
+	border: 3px solid white;
+	max-width: 25rem;
 }
 .about-text {
-    font-size: 1.8rem;
-    color: white;
-    font-family: Arcon;
-    text-align: justify;
+	font-size: 1.8rem;
+	color: white;
+	font-family: Arcon;
+	text-align: justify;
 }
 .beauty-button {
     text-decoration: none;
@@ -108,76 +122,87 @@ body {
     transition: .2s all;
     outline: 0;
 }
+
+/* Skills section style */
+
 .skills .skillbar {
-    width: 100%;
-    height: 20px;
-    position: relative;
-    margin-bottom: 60px;
-    padding: 5px;
-    box-sizing: border-box;
+  width: 100%;
+  height: 20px;
+  position: relative;
+  margin-bottom: 60px;
+  padding: 5px;
+  box-sizing: border-box;
 }
+
 .skills .count-bar {
-    width: 100%;
-    height: 10px;
-    width: 0px;
-    position: relative;
-    background-color: white;
+  width: 100%;
+  height: 10px;
+  width: 0px;
+  position: relative;
+  background-color: white;
 }
-.skills .count-bar span {
+
+.skills .count-bar span{
     font-size: 17px;
 }
+
 .skills .title {
-    position: relative;
-    line-height: 25px;
-    top: -10px;
-    left: 0;
-    font-weight: bold;
-    font-size: 1.25em;
-    font-family: Arcon;
-    color: white;
-    opacity: 0;
+  position: relative;
+  line-height: 25px;
+  top: -10px;
+  left: 0;
+  font-weight: bold;
+  font-size: 1.25em;
+  font-family: Arcon;
+  color: white;
+  opacity: 0;
 }
+
 .skills .count-bar .count {
-    position: absolute;
-    line-height: 18px;
-    top: -33px;
-    right: -20px;
-    width: 60px;
-    height: 18px;
-    color: white;
-    font-family: Arcon;
-    text-align: center;
+  position: absolute;
+  line-height: 18px;
+  top: -33px;
+  right: -20px;
+  width: 60px;
+  height: 18px;
+  color: white;
+  font-family: Arcon;
+  text-align: center;
 }
+
 .skills .count-bar .count span {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
+
 .skills .count-bar .count span:after {
-    position: absolute;
-    left: 50%;
-    margin-left: -4px;
-    top: 18px;
-    content: "";
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+  top: 18px;
+  content: "";
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
 }
-.portfolio-section img,
-.fun-section img {
+
+/* Portfolio & Fun section style */
+
+.portfolio-section img, .fun-section img {
     transition: .3s all;
     border: 3px solid white;
 }
-.portfolio-section a:focus,
-.fun-section a:focus {
+.portfolio-section a:focus, .fun-section a:focus {
     outline: 0;
 }
-.portfolio-section img:hover,
-.fun-section img:hover {
+.portfolio-section img:hover, .fun-section img:hover {
     box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0.5);
 }
-.portfolio-section .col-md-4,
-.fun-section .col-md-4 {
+.portfolio-section .col-md-4, .fun-section .col-md-4 {
     margin-bottom: 2rem;
 }
+
+/* Feedback section style */
+
 .feedback-section {
     color: white;
     font-family: Arcon;
@@ -200,6 +225,9 @@ body {
 .feedback-section a:focus {
     color: white;
 }
+
+/* Contact section style */
+
 .contact-section h5 {
     color: white;
     font-family: Arcon;
@@ -208,8 +236,7 @@ body {
     padding-left: 10rem;
     padding-right: 10rem;
 }
-.contact-section input,
-.contact-section textarea {
+.contact-section input, .contact-section textarea {
     background-color: transparent;
     border-radius: 0;
     border-width: 3px 0 0 0;
@@ -221,14 +248,12 @@ body {
     -webkit-appearance: none;
     resize: none;
 }
-.contact-section input:focus,
-.contact-section textarea:focus {
+.contact-section input:focus, .contact-section textarea:focus {
     outline: 0;
     border-color: transparent;
     background-color: rgba(0, 0, 0, 0.1);
 }
-.contact-section input::-webkit-input-placeholder,
-.contact-section textarea::-webkit-input-placeholder {
+.contact-section input::-webkit-input-placeholder, .contact-section textarea::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
 .contact-section input::-moz-placeholder,
@@ -271,6 +296,9 @@ body {
     font-family: Arcon;
     padding-top: 5px;
 }
+
+/* Footer style */
+
 .footer {
     color: white;
     font-family: Arcon;
@@ -296,6 +324,10 @@ body {
     animation-duration: 30s;
     animation-iteration-count: infinite;
 }
+
+
+/* Styling for the modals */
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -313,6 +345,7 @@ body {
     animation-name: colorChanger;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+
 }
 .portfolio-modal .modal-content img {
     max-width: 65%;
@@ -387,22 +420,24 @@ body {
     color: white;
     border: 3px solid transparent;
 }
+
 @media (max-width: 767px) {
-    .logo {
-        width: 45px;
-    }
-    .menu {
-        margin-top: 5px;
-    }
-    .menu img {
-        height: 22px!important;
-    }
-    .typed-text {
-        font-size: 2rem;
-    }
-    .about-text {
-        font-size: 1.4rem;
-    }
+
+	.logo {
+		width: 45px;
+	}
+	.menu {
+		margin-top: 5px;
+	}
+	.menu img {
+		height: 22px!important;
+	}
+	.typed-text {
+		font-size: 2rem;
+	}
+	.about-text {
+		font-size: 1.4rem;
+	}
     #scroll {
         font-size: 2.5rem;
     }
@@ -420,8 +455,8 @@ body {
         padding-right: 1rem;
     }
     iframe {
-        height: 300px;
-    }
+		height: 300px;
+	}
 }
 @media (max-width: 991px) {
     iframe {
