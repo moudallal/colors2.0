@@ -14,7 +14,7 @@ The main idea of the website, the color changer, was inspired by [Cubezapp](http
 
 ## TODO
 - [x] Get a custom domain and link it to my repo here on github.
-- [ ] Get a custom email address with Google that matches my custom domain.
+- [x] Get a custom email address with Google that matches my custom domain.
 
 ## Credit me!
 I open sourced this code so you guys out there can check it out. But if you manage to use any idea, chunk of code, or design of my website, I ask you to credit me on your page.
