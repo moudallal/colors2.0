@@ -479,7 +479,12 @@ body {
 	}
 	.about-text {
 		font-size: 1.4rem;
-	}
+    }
+    .beauty-button {
+        width: 100%;
+        text-align: center;
+        font-size: 1.3rem;
+    }
     #scroll {
         font-size: 2.5rem;
     }
