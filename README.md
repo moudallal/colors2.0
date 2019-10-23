@@ -1,5 +1,5 @@
 ![alt tag](http://imgur.com/jkkLJw1.png)
-# Colors Portfolio Website (Remastered)
+# Colors Portfolio Website (v2)
 ![alt tag](http://imgur.com/7Bqulut.png)
 
 ## Welcome to the remastered version of my super cool portfolio website!
