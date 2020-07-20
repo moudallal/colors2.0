@@ -1,0 +1,71 @@
+/* Import custom font */
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../../fonts/sofiapro.otf');
+}
+
+/* Styling */
+
+body {
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.artwork, .links {
+  border-radius: 20px;
+  box-shadow: 0 0 50px 5px rgba(0,0,0,0.2);
+}
+
+.links {
+  background-color: transparent;
+}
+
+h3 {
+  font-family: 'Sofia Pro';
+
+}
+
+.listen-btn {
+  background-color: rgba(255, 255, 255, 0.8)!important;
+  border-radius: 0!important;
+  border-bottom: 0.5px solid #aeaeae!important;
+
+  max-height: 40%;
+}
+.listen-btn:first-of-type {
+  border-radius: 20px 20px 0 0 !important;
+}
+.listen-btn:last-of-type {
+  border-radius: 0 0 20px 20px !important;
+  border: 0!important;
+}
+.listen-btn img {
+  max-width: 45%;
+}
+.listen-btn:hover {
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.listen-btn:focus {
+  box-shadow: none!important;
+}
+
+.listen-btn:nth-of-type(1):hover img {
+  content: url("../img/png/applemusic\ dark.png");
+}
+.listen-btn:nth-of-type(2):hover img {
+  content: url("../img/png/spotify\ dark.png");
+}
+.listen-btn:nth-of-type(3):hover img {
+  content: url("../img/png/youtube\ dark.png");
+}
+.listen-btn:nth-of-type(4):hover img {
+  content: url("../img/png/anghami\ dark.png");
+}
+.listen-btn:nth-of-type(5):hover img {
+  content: url("../img/png/deezer\ dark.png");
+}
